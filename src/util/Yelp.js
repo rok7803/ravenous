@@ -25,8 +25,6 @@ const Yelp = {
                         reviewCount: business.review_count
                     }
                 ));
-            } else {
-                throw new Error(console.log(jsonResponse.businesses));
             }
         });
     }
